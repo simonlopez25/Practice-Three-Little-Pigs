@@ -11,7 +11,7 @@ body {
   text-align: justify;
   letter-spacing: 0.5px;
 
-  background-color: rgb(253, 253, 253);
+  background-color: rgba(223, 40, 27, 0.725);
 }
 
 img {
@@ -19,11 +19,19 @@ img {
   width: auto;
   height: auto;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 20px;
   display: block;
-  margin: 2rem auto;
+  margin: 1rem auto;
 }
-
+h1 {
+  font-family: "Cinzel", serif;
+  color: #000000;
+  text-shadow:
+    0 0 10px rgba(223, 40, 27, 0.725),
+    0 0 20px rgba(223, 40, 27, 0.725),
+    0 0 40px rgba(223, 40, 27, 0.725);
+  text-align: center;
+}
 h2 {
   font-family: "Playfair Display", serif;
   font-size: 2rem;
@@ -50,4 +58,3 @@ p {
   letter-spacing: 0.2px;
   font-weight: 300;
 }
-
